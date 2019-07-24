@@ -169,7 +169,7 @@ a:hover {
   }
 
   .img-circle {
-    height: 180px;
+    max-height: 180px;
     width: 180px;
     border-radius: 90px;
   }
