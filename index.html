@@ -14,7 +14,11 @@
   <body>
     <div class="big-card shadowed">
       <div class="card left-card">
-        <img class="img-circle shadowed" src="images/profile_picture.jpg" alt="Edouard De Prez profile picture">
+        <picture>
+          <source srcset="images/profile_picture.jpg"
+                  media="(min-width: 900px)">
+          <img src="images/profile_picture_small.jpg" />
+        </picture>
       </div>
       <div class="card right-card">
         <div class="info">
