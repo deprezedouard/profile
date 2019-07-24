@@ -146,10 +146,12 @@ a:hover {
     text-align: center;
     margin: 10px auto;
   }
+
   .left-card {
     flex: auto;
     width: auto;
     padding: 30px;
+    margin: 0 auto;
   }
 
   .right-card {
