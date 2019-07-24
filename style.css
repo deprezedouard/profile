@@ -148,6 +148,7 @@ a:hover {
   }
 
   .left-card {
+    display: block;
     flex: auto;
     width: auto;
     padding: 30px;
